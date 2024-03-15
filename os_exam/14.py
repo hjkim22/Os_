@@ -4,7 +4,7 @@ def counter1(snum, cnt):
     for i in range(cnt):
         snum.value += 1
 
-
+ 
 def counter2(snum, cnt):
     for i in range(cnt):
         snum.value -= 1

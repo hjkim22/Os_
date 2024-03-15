@@ -1,6 +1,6 @@
 from multiprocessing import Process, Pipe
 import os
-
+ 
 def send(conn):
     print(f'{os.getpid()}가 {os.getppid()}에게 데이터를 보낸다.')
     conn.send("Hellod parent!")

@@ -7,7 +7,7 @@ def counter1(snum, cnt):
             snum.value += 1
     finally:
         print("done")
-
+ 
 def counter2(snum, cnt):
     try:
         for i in range(cnt):

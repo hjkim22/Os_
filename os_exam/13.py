@@ -1,7 +1,7 @@
 from multiprocessing import Process
 import os
 import time
-
+ 
 def writer():
     print(f'{os.getpid()}가 파일에 쓴다')
     with open('13.txt', 'w') as f:
